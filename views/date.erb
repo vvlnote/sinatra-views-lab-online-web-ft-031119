@@ -1,2 +1,3 @@
 <h1>Today</h1>
-<p><%= "The date is " + Time.now.strftime(%A, %B %d, %Y) %></p>
+<% d = DateTime.now %>
+<p><%= "The date is " + d.strftime(%A, %B %d, %Y) %></p>
